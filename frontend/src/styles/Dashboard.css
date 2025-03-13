@@ -1,0 +1,42 @@
+.dashboard {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dashboard h2 {
+    color: #333;
+}
+
+.application-list {
+    list-style: none;
+    padding: 0;
+}
+
+.application-card {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    box-shadow: 0px 0px 5px lightgray;
+}
+
+.status {
+    font-weight: bold;
+}
+
+.status.pending {
+    color: orange;
+}
+
+.status.accepted {
+    color: green;
+}
+
+.status.rejected {
+    color: red;
+}
